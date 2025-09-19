@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <h1 id="title">Tic Tac Toe</h1>
+    <section id="players">
+        <h2>Player 1: X</h2>
+        <h2>Player 2: O</h2>
+    </section>
+    <section id="gameboard">
+        <div class="box" id="b1">
+            <p class="cross">X</p>
+            <p class="elipse">O</p>
+        </div>
+        <div class="box" id="b2">
+            <p class="cross">X</p>
+            <p class="elipse">O</p>
+        </div>
+        <div class="box" id="b3">
+            <p class="cross">X</p>
+            <p class="elipse">O</p>
+        </div>
+        <div class="box" id="b4">
+            <p class="cross">X</p>
+            <p class="elipse">O</p>
+        </div>
+        <div class="box" id="b5">
+            <p class="cross">X</p>
+            <p class="elipse">O</p>
+        </div>
+        <div class="box" id="b6">
+            <p class="cross">X</p>
+            <p class="elipse">O</p>
+        </div>
+        <div class="box" id="b7">
+            <p class="cross">X</p>
+            <p class="elipse">O</p>
+        </div>
+        <div class="box" id="b8">
+            <p class="cross">X</p>
+            <p class="elipse">O</p>
+        </div>
+        <div class="box" id="b9">
+            <p class="cross">X</p>
+            <p class="elipse">O</p>
+        </div>
+
+        <span class="board-horizonal" id="L1"></span>
+        <span class="board-horizonal" id="L2"></span>
+        <span class="board-vertical" id="L3"></span>
+        <span class="board-vertical" id="L4"></span>
+
+        <span class="horizontal-strike" id="h1"></span>
+        <span class="horizontal-strike" id="h2"></span>
+        <span class="horizontal-strike" id="h3"></span>
+
+        <span class="vertical-strike" id="v1"></span>
+        <span class="vertical-strike" id="v2"></span>
+        <span class="vertical-strike" id="v3"></span>
+
+        <span class="diagonal-strike" id="d1"></span>
+        <span class="diagonal-strike" id="d2"></span>
+    </section>
+    <button id="resetButton">New Game</button>
+    <span id="score">
+        <h1 id="p1Score">P1 Wins: 0</h1>
+        <h1 id="p2Score">P2 Wins: 0</h1>
+    </span>
+</body>
+</html>
